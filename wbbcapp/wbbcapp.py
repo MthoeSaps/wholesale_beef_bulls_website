@@ -23,7 +23,7 @@ def run():
          """
          ### Welcome
 
-         yellow[Welcome to the official Wholesale Beef Bulls online cricket platform. Here you can check all the team stats, watch all the live WBBCC games and get updates on the Club fixtures, tours and tounaments]
+         Welcome to the official Wholesale Beef Bulls online cricket platform. Here you can check all the team stats, watch all the live WBBCC games and get updates on the Club fixtures, tours and tounaments
 
         
         :yellow[Access more data and infomation about WBBCC on our Panel] """
