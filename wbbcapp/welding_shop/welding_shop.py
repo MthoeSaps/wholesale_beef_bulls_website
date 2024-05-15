@@ -21,7 +21,7 @@ with st.sidebar:
     )
     
 if selected == "🏡Home":
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/Screenshot_20240515_120913_Canva.jpg")
+    img=Image.open("welding_shop/img/Screenshot_20240515_120913_Canva.jpg")
     st.image(
         img,
         caption="Gwabalanda Steel Fabrications Trademark Logo",
@@ -36,25 +36,25 @@ if selected == "🔧Services Offered":
     with st.container(border=True):
         st.title('Here are available door and window frames')
         st.text("All Window Frame prices are stacked at USD$100.00, Door Frames at USD$200.00")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/02d42c42b7da5584ccf6461fcaea06bb.jpg")
+    img=Image.open("welding_shop/img/02d42c42b7da5584ccf6461fcaea06bb.jpg")
     st.image(
         img,
         caption="Windown frames available 2m x 1m measuring for your perfect window finishing",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/7760e0a2822ffc7b733f045291df1aa3.jpg")
+    img=Image.open("welding_shop/img/7760e0a2822ffc7b733f045291df1aa3.jpg")
     st.image(
         img,
         caption="Custom steel and aluminium fabricated window frames available",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/32f9bbabc96665397e71046c25eeda45.jpg")
+    img=Image.open("welding_shop/img/32f9bbabc96665397e71046c25eeda45.jpg")
     st.image(
         img,
         caption="Aluminium doors & door frames also available",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/4f798501fff0cbd31866a76e4621091a.jpg")
+    img=Image.open("welding_shop/img/4f798501fff0cbd31866a76e4621091a.jpg")
     st.image(
         img,
         caption="Custom steel and aluminium fabricated door frames available",
@@ -63,19 +63,19 @@ if selected == "🔧Services Offered":
     with st.container(border=True):
         st.title("We also offer sliding gates for steel fabrication")
         st.text("Sliding gates available at USD$300.00")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/3d9359473ee55b5ec5d4095a005d5c16.jpg")
+    img=Image.open("welding_shop/img/3d9359473ee55b5ec5d4095a005d5c16.jpg")
     st.image(
         img,
         caption="Custom steel sliding gates",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/47e8f834924645f32d8b11fdbe2a46cc.jpg")
+    img=Image.open("welding_shop/img/47e8f834924645f32d8b11fdbe2a46cc.jpg")
     st.image(
         img,
         caption="Custom steel sliding gates tailored to your desugn and fit",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/517497f0711e7d736bd8697ece17e0c4.jpg")
+    img=Image.open("welding_shop/img/517497f0711e7d736bd8697ece17e0c4.jpg")
     st.image(
         img,
         caption="Custom steel sliding gates tailored to your desugn and fit",
@@ -84,19 +84,19 @@ if selected == "🔧Services Offered":
     with st.container(border=True):
         st.title("We also cater for other Steel Works")
         st.text("JoJo/ Water Tank stands Available @ USD$450.00")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/a0cc7ebec88b891f95995ead11e588b9.jpg")
+    img=Image.open("welding_shop/img/a0cc7ebec88b891f95995ead11e588b9.jpg")
     st.image(
         img,
         caption="Custom Jojo Tank Stands",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/a36fe84c231d3815f7e67b2cb0ff6079.jpg")
+    img=Image.open("welding_shop/img/a36fe84c231d3815f7e67b2cb0ff6079.jpg")
     st.image(
         img,
         caption="Custom Jojo Tank Stands fabricated for any use and any size",
         width=310,
         channels="RGB")
-    img=Image.open("C:/Users/Mthoko/source/repos/welding_shop/img/0ab596492203d2083e481eaa1192a50f.jpg")
+    img=Image.open("welding_shop/img/0ab596492203d2083e481eaa1192a50f.jpg")
     st.image(
         img,
         caption="Custom designed stands to fit your exact needs",
