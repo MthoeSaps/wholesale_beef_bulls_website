@@ -35,8 +35,9 @@ if selected == "🏡Home":
 if selected == "🔧Services Offered":
     with st.container(border=True):
         st.title('Here are available door and window frames')
-        with st.container(border=True):
-            st.write("All Window Frame prices are stacked at USD$100.00, Door Frames at USD$200.00")
+        with st.container(border=False):
+            st.info("All Window Frame prices are stacked at USD$100.00") 
+            st.info("Door Frames at USD$200.00")
     img=Image.open("wbbcapp/welding_shop/img/02d42c42b7da5584ccf6461fcaea06bb.jpg")
     st.image(
         img,
