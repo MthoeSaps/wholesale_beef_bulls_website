@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title='🔧Welding Shop', layout='centered', initial_sidebar_state="expanded")
 
-st.title("Welding Shop")
+st.title("Gwabalanda Caarpark Welding Shop")
 st.divider()
 st.text("Mobile and PC Compartible.")
 
@@ -30,12 +30,12 @@ if selected == "🏡Home":
     st.header(':yellow[Welcome, to our official online shop]',divider=True)
     st.divider()
     st.write("Use this platform in order to view our readily available products and get custom fabricated windows and door frames from us.")
-    st.text("Navigate the site and see what we have in store for you. ")
+    st.info("Navigate the site and see what we have in store for you. ")
     
 if selected == "🔧Services Offered":
     with st.container(border=True):
         st.title('Here are available door and window frames')
-        st.text("All Window Frame prices are stacked at USD$100.00, Door Frames at USD$200.00")
+        st.info("All Window Frame prices are stacked at USD$100.00, Door Frames at USD$200.00")
     img=Image.open("wbbcapp/welding_shop/img/02d42c42b7da5584ccf6461fcaea06bb.jpg")
     st.image(
         img,
@@ -62,7 +62,7 @@ if selected == "🔧Services Offered":
         channels="RGB")
     with st.container(border=True):
         st.title("We also offer sliding gates for steel fabrication")
-        st.text("Sliding gates available at USD$300.00")
+        st.info("Sliding gates available at USD$300.00")
     img=Image.open("wbbcapp/welding_shop/img/3d9359473ee55b5ec5d4095a005d5c16.jpg")
     st.image(
         img,
@@ -83,7 +83,7 @@ if selected == "🔧Services Offered":
         channels="RGB")
     with st.container(border=True):
         st.title("We also cater for other Steel Works")
-        st.text("JoJo/ Water Tank stands Available @ USD$450.00")
+        st.info("JoJo/ Water Tank stands Available @ USD$450.00")
     img=Image.open("wbbcapp/welding_shop/img/a0cc7ebec88b891f95995ead11e588b9.jpg")
     st.image(
         img,
