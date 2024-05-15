@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title='🔧Welding Shop', layout='centered', initial_sidebar_state="expanded")
 
-st.title("Gwabalanda Caarpark Welding Shop")
+st.title("Gwabalanda Carpark Welding Shop")
 st.divider()
 st.text("Mobile and PC Compartible.")
 
