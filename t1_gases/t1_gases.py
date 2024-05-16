@@ -42,7 +42,7 @@ if selected == "⛽Services Offered":
         st.image(
             img,
             caption="L.P Gas Available ",
-            width=280,
+            width=260,
             channels="RGB")
     with st.container(border=True):
         st.subheader("Gas Handling")
