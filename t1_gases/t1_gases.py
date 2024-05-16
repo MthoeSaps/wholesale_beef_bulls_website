@@ -22,7 +22,7 @@ with st.sidebar:
     
 if selected == "🏡Home":
     st.subheader("Welcome, to our online shopping platform", divider=True)
-    img=Image.open("C:/Users/Mthoko/source/repos/t1_gases/img/logo.png")
+    img=Image.open("t1_gases/img/logo.png")
     st.image(
         img,
         caption="T1 Gases Trademark Logo",
@@ -38,7 +38,7 @@ if selected == "⛽Services Offered":
         st.info("We have L.P Gas available at USD1.90/kg")
         st.info("For home deliveries we charge USD$2.00 a delivery around Gwabalanda")
         st.divider()
-        img=Image.open("C:/Users/Mthoko/source/repos/t1_gases/img/0b3025dea653bbd4b2a1198afdbbc654.jpg")
+        img=Image.open("t1_gases/img/0b3025dea653bbd4b2a1198afdbbc654.jpg")
         st.image(
             img,
             caption="L.P Gas Available ",
@@ -47,7 +47,7 @@ if selected == "⛽Services Offered":
     with st.container(border=True):
         st.subheader("Gas Handling")
         st.info("We also fix leaking gas tanks and gas stoves also starting for only USD$3.00")
-        img=Image.open("C:/Users/Mthoko/source/repos/t1_gases/img/ed31393a4a210d2db696b1c0e4094571.jpg")
+        img=Image.open("t1_gases/img/ed31393a4a210d2db696b1c0e4094571.jpg")
         st.image(
             img,
             caption="Gas repair servives available",
@@ -58,7 +58,7 @@ if selected == "⛽Services Offered":
         st.info("""We are also dedicated to providing exceptional services and quality to your LP Gas tank systems. Our team understands the importance
         of a properly functioning gas system for your residential and commercial needs. Whether you require installation, maintanace or repairs,
         we have the expertise to ensure your LP gas tank operates safely and efficiently.""")
-        img=Image.open("C:/Users/Mthoko/source/repos/t1_gases/img/55953cb71a95e3b3d7c94e5e6f7dd2f8.jpg")
+        img=Image.open("t1_gases/img/55953cb71a95e3b3d7c94e5e6f7dd2f8.jpg")
         st.image(
             img,
             caption="We also offer gas installation services",
@@ -67,7 +67,7 @@ if selected == "⛽Services Offered":
         st.divider()
         st.subheader("A quick tip for our customers")
         st.write("View the image bewlow to get a free tip from us to you on how to care for your gas stoves.")
-        img=Image.open("C:/Users/Mthoko/source/repos/t1_gases/img/82c3a5dbdb2e7c79f4ccbc58f8526c0d.jpg")
+        img=Image.open("t1_gases/img/82c3a5dbdb2e7c79f4ccbc58f8526c0d.jpg")
         st.image(
             img,
             #caption="We also offer gas installation services",
