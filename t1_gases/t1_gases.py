@@ -51,7 +51,7 @@ if selected == "⛽Services Offered":
         st.image(
             img,
             caption="Gas repair servives available",
-            width=310,
+            width=250,
             channels="RGB")
         st.divider()
         st.subheader("Why get your gas tank fixed?")
@@ -62,7 +62,7 @@ if selected == "⛽Services Offered":
         st.image(
             img,
             caption="We also offer gas installation services",
-            width=310,
+            width=250,
             channels="RGB")
         st.divider()
         st.subheader("A quick tip for our customers")
@@ -71,7 +71,7 @@ if selected == "⛽Services Offered":
         st.image(
             img,
             #caption="We also offer gas installation services",
-            width=310,
+            width=250,
             channels="RGB")
     
 with st.sidebar:
